@@ -5,6 +5,6 @@ def homepage(request):
     return render(request, "index.html")
 
 def third(request):
-    return HttpResponse ('This is page test 3')
+    return render(request, "test.html")
 
 # Create your views here.
