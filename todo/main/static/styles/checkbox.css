@@ -1,10 +1,11 @@
-.chackbox_container{
+.checkbox_container{
     display: block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 25px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -14,7 +15,7 @@
 
 .chackbox_container input {
     position: absolute;
-    opacity: 0%;
+    opacity: 50%;
     cursor: pointer;
     height: 0;
     width: 0;

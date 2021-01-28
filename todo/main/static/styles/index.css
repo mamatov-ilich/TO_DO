@@ -31,7 +31,7 @@ section{
 }
 
 .todo_container{
-    padding: 30px, 20px;
+    padding: 20px 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -39,9 +39,9 @@ section{
 }
 .todo_item{
     border: 1px solid grey;
-    border-radius: 15px;
-    width: 25%;
-    padding: 10px, 15px;
+    border-radius: 12px;
+    width: 35%;
+    padding: 10px, 25px;
     background-color:rgba(170, 166, 153, 0.336);
     margin-bottom: 20px;
 }
@@ -74,7 +74,9 @@ section{
 }
 
 .todo_item_header h4{ 
-    font-size: 18px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
     
 }
 
@@ -85,8 +87,8 @@ section{
     align-items: center;
 }
 
-..todo_item_footer p {
-    font-size: 14px;
+.todo_item_footer p {
+    font-size: 16px;
 
 }
 
@@ -104,7 +106,6 @@ section{
     height: 25px;
     margin: 0 5px;
     cursor: pointer;
-
 }
 
 
