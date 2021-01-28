@@ -10,5 +10,9 @@
 <body>
     <h4>Ваша запись добавлено успешно!</h4>
     
+    {% for todo in todo_list %}
+        <h4>{{ todo.text }} :  {{todo.created_at}}</h4>
+    {% endfor %}
+
 </body>
 </html>
