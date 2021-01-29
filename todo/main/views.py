@@ -17,9 +17,12 @@ def add_todo(request):
     todo = ToDo(text=text)
     todo.save()
     return redirect(homepage)
+<<<<<<< HEAD
 
 
 def delete_todo(request, id):
     todo = ToDo.objects.get(id=id)
     todo.delete()
     return redirect(homepage)
+=======
+>>>>>>> 0f6bfc325b0292569889df59e29cc059450b0310
