@@ -16,4 +16,10 @@ def add_todo(request):
     text = form["todo_text"]
     todo = ToDo(text=text)
     todo.save()
-    return redirect(homepage())
+    return redirect(homepage)
+
+
+def delete_todo(request, id):
+    todo = ToDo.objects.get(id=id)
+    todo.delete()
+    return redirect(homepage)
